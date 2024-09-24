@@ -1,0 +1,38 @@
+METODO                  DESCRIPCIÓN
+length()                Devuelve la longitud de la cadena
+
+indexOf('string')       Devuelve la posicion de la PRIMERA 
+                        aparicion del caracter
+
+lastIndexOf('caracter') Devuelve la posicion de la última aparición
+                        de carácter
+
+charAt(n)               Devuelve el carácter que está en la posición
+                        n
+
+substring(n1,n2)        Devuelve la subcadena comprendida entre las 
+                        posiciones n1 y n2-1
+
+toUpperCase()           Devuelve la cadena convertida a mayúsculas
+
+toLowerCase()           Devuelve la cadena convertida a minúsculas
+
+equals("cad")           Compara 2 cadenas y devuelve true si son iguales
+
+equalsIgnoreCase("cad") Igual que equals pero considera mayusculas y minusculas
+
+compareTo(OtroString)   Devuelve 0 si ambas cadenas son iguales <0 si la primera
+                        alfabeticamente menor que la segunda o >0 si la primera
+                        es alfabeticamente mayor que la segunda
+
+compareToIgnoreCase(OtroString)     Igual que compare To pero sin considerar mayusculas y minusculas
+
+valueOf(N)                          Metodo estatico. Convierte el valor N a String. N puede ser de cualquier tipo
+
+trim()                              Elimina los caracteres en blanco iniciales y finales de una cadena
+
+split(String regex)                 Utiliza un parametro para dividira la cadena en un array de String
+
+replace(char ca, char cn)           Permite cambiar el caracter antiguo ca por el caracter nuevo cn.
+
+Concat(String cad)                  Concatena dos o mas cadenas
